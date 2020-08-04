@@ -36,8 +36,13 @@ public class User implements Serializable {
 
     @NotNull
     @Column(unique = true)
-    private String login;
+    private String email;
 
+    @NotNull
+    @Column(unique = true)
+    private String username;
+
+    @NotNull
     private String password;
 
     @ElementCollection(fetch = FetchType.EAGER)
@@ -47,10 +52,11 @@ public class User implements Serializable {
 
 
 
-    public User(@NotNull String name, @NotNull String cpf, @NotNull String login, @NotNull String password) {
+    public User(@NotNull String name, @NotNull String cpf, @NotNull String email, @NotNull String username, @NotNull String password) {
         this.name = name;
         this.cpf = cpf;
-        this.login = login;
+        this.username = username;
+        this.email = email;
         this.password = password;
         addProfiles(Profile.DEFAULT);
 

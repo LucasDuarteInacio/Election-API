@@ -31,4 +31,4 @@
 <p align="justify">Neste projeto será implementado uma API Rest com objetivo de cadastrar e gerenciar usuários e eleições do sistema.</p>
 
 ## Verificação Sonar
-<img src="https://github.com/LucasDuarteInacio/eleicao-back/blob/master/verificacao_sonar.png"/> 
+<img src="https://github.com/LucasDuarteInacio/Election-API/blob/master/verificacao_sonar.png"/> 

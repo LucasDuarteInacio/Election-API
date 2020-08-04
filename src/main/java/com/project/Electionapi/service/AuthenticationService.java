@@ -17,12 +17,12 @@ public class AuthenticationService implements UserDetailsService {
 
 
     @Override
-    public UserDetails loadUserByUsername(String login) throws UsernameNotFoundException {
-        User user = userRepository.findByLogin(login).get();
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+        User user = userRepository.findByEmail(email).get();
 
         if (user == null) {
-            throw new UsernameNotFoundException(login);
+            throw new UsernameNotFoundException(email);
         }
-        return new UserSS(user.getId(),user.getPassword(),user.getLogin(), user.getProfiles());
+        return new UserSS(user.getId(),user.getPassword(),user.getEmail(), user.getProfiles());
     }
 }

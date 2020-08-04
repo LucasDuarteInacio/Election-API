@@ -13,7 +13,7 @@ import java.util.List;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/voto")
+@RequestMapping("/vote")
 public class VoteController {
 
 
@@ -26,7 +26,7 @@ public class VoteController {
         return service.getAll();
     }
 
-    @GetMapping("/resultado/{id}")
+    @GetMapping("/result/{id}")
     @ApiOperation(value = "Returns the election result by id")
     public List<ResultElectionDTO> result(@PathVariable("id") Integer idElection) {
         return service.resultElection(idElection);

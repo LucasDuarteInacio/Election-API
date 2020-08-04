@@ -20,14 +20,14 @@ public class UserSS implements UserDetails {
 
     private Integer id;
     private String password;
-    private String login;
+    private String email;
     private Collection<? extends GrantedAuthority> authorities;
 
 
-    public UserSS(Integer id, String password, String login, Set<Profile> usersType) {
+    public UserSS(Integer id, String password, String email, Set<Profile> usersType) {
         this.id = id;
         this.password = password;
-        this.login = login;
+        this.email = email;
         this.authorities = usersType.stream().map(x -> new SimpleGrantedAuthority(x.getDescription())).collect(Collectors.toList());
     }
 
@@ -48,7 +48,7 @@ public class UserSS implements UserDetails {
 
     @Override
     public String getUsername() {
-        return login;
+        return email;
     }
 
     @Override

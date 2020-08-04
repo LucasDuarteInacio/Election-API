@@ -14,7 +14,7 @@ import java.util.List;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/votacao")
+@RequestMapping("/election")
 public class ElectionController {
 
     @Autowired
@@ -30,7 +30,7 @@ public class ElectionController {
         return service.getAll();
     }
 
-    @GetMapping("/detalhes/{id}")
+    @GetMapping("/detail/{id}")
     @ApiOperation(value = "Returns detail a election by id ")
     public ElectionDTO detailElection(@PathVariable("id") Integer idElection){
         return service.getElectionById(idElection);
