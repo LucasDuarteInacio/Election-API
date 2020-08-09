@@ -34,7 +34,7 @@ public class ElectionController {
     @ApiOperation(value = "Returns detail a election by id ")
     public ElectionDTO detailElection(@PathVariable("id") Integer idElection){
         return service.getElectionById(idElection);
-
+ 
     }
     @PostMapping
     @ApiOperation(value = "Create a new election")
