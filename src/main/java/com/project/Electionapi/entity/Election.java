@@ -5,11 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.AllArgsConstructor;
@@ -30,10 +26,11 @@ public class Election {
 
     private String title;
 
-    //@DateTimeFormat(pattern = "dd/MM/yyyy")
+    @Column(name = "startElection")
     private Date start;
 
-    //@DateTimeFormat(pattern = "dd/MM/yyyy")
+
+    @Column(name = "endElection")
     private Date end;
 
     private String description;
