@@ -27,8 +27,8 @@
 </p>
 
 ## Tópicos
-:white_square_button: [Sobre o Projeto](#sobre-o-projeto) 
-:white_square_button: [Verificação Sonar](#verificação-sonar)  
+:white_square_button: [Sobre o Projeto](#sobre-o-projeto)  
+:white_square_button: [Verificação Sonar](#verificação-sonar)   
 :white_square_button: [Funcionalidades](#funcionalidades)  
 :white_square_button: [Link Swagger](#link-swagger)  
 :white_square_button: [Aplicação](#aplicação)  
@@ -42,11 +42,11 @@
 <img src="https://github.com/LucasDuarteInacio/Election-API/blob/master/verificacao_sonar.png"/> 
 
 ## Funcionalidades
-:heavy_check_mark: Permitir autenticação do sistema através de um Token de Acesso  
-:heavy_check_mark: Permite criar eleições personalizadas  
-:heavy_check_mark: Poder ser acessado por multiplos sistemas  
-:heavy_check_mark: Deploy automàtico da master no heroku 
-:heavy_check_mark: Permitir criar, buscar, alterar, deletar e eleições e candidatos
+:heavy_check_mark: Permitir autenticação do sistema através de um Token de Acesso   
+:heavy_check_mark: Permite criar eleições personalizadas   
+:heavy_check_mark: Poder ser acessado por multiplos sistemas   
+:heavy_check_mark: Deploy automàtico da master no heroku  
+:heavy_check_mark: Permitir criar, buscar, alterar, deletar e eleições e candidatos  
 
 ## Link Swagger 
 https://project-election-api.herokuapp.com/swagger-ui.html
