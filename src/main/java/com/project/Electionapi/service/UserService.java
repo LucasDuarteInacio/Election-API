@@ -1,6 +1,7 @@
 package com.project.Electionapi.service;
 
 import com.project.Electionapi.entity.User;
+import com.project.Electionapi.entity.enuns.Profile;
 import com.project.Electionapi.exception.ApiException;
 import com.project.Electionapi.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,7 @@ public class UserService {
 
     public User add(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
+        user.addProfiles(Profile.DEFAULT);
         return userRepository.save(user);
     }
 
