@@ -52,7 +52,7 @@
 https://project-election-api.herokuapp.com/swagger-ui.html
 
 ## Aplicação
-* Para rodar a aplicação utilize o comando <code>https://github.com/LucasDuarteInacio/Election-API.git</code>
+* Para rodar a aplicação utilize o comando <code>git clone https://github.com/LucasDuarteInacio/Election-API.git</code>
 * Rode o comando <code>mvn clean install</code>
 * Escolha sua IDE de preferência
 
