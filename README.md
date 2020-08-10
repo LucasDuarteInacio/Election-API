@@ -11,8 +11,8 @@
   <a href="https://maven.apache.org/">
     <img src="https://img.shields.io/static/v1?label=maven&message=3.1.1&color=orange&style=for-the-badge&logo=APACHE"/>
   </a>
-  <a href="https://www.h2database.com/">
-    <img src="https://img.shields.io/static/v1?label=h2&message=database&color=blue&style=for-the-badge&"/>
+  <a href="https://www.postgresql.org/">
+    <img src="https://img.shields.io/static/v1?label=postgres&message=database&color=blue&style=for-the-badge&logo=POSTGRESQL"/>
   </a>
   <a href="https://www.sonarqube.org/">
     <img src="https://img.shields.io/static/v1?label=sonar&message=6.7.7&color=blue&style=for-the-badge&logo=SONARQUBE"/>
@@ -23,7 +23,7 @@
   <a href="https://swagger.io/">
     <img src="https://img.shields.io/static/v1?label=swagger&message=framework&color=green&style=for-the-badge&logo=SWAGGER"/>
   </a>
-    <img src="http://img.shields.io/static/v1?label=STATUS&message=em andamento&color=blue&style=for-the-badge"/>
+    <img src="http://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=blue&style=for-the-badge"/>
 </p>
 
 ## Tópicos
